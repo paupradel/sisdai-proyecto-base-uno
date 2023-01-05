@@ -13,16 +13,6 @@
       :class="{'a11y-menu':true, 'abierto':isOpenA11yMenu}"
       @click="toggleA11yMenu">
       <p id="a11y-titulo" class="a11y-title">Herramientas de accesibilidad</p>
-      <button
-        :class="{'a11y-opcion':true, 'prendido':tieneAltoContraste}"
-        type="button"
-        @click="alternarAltoContraste">
-        <span class="icono">
-          <img v-if="tieneAltoContraste" src="@/assets/img/base/a11y-contraste.svg" alt="">
-          <img v-else src="@/assets/img/base/a11y-contraste.png" alt="">
-        </span>
-        <span class="nombre">Alto contraste</span>
-      </button>
       <!-- <button class="a11y-opcion" type="button">
         <span class="icono"><img src="@/assets/img/base/a11y-texto.png" alt=""></span>
         <span class="nombre">Crecer texto</span>
@@ -57,10 +47,6 @@
         <span class="icono"><img src="@/assets/img/base/a11y-restablecer.png" alt=""></span>
         <span class="nombre">Restablecer</span>
       </button>
-      <router-link class="a11y-opcion" to="/ayuda">
-        <span class="icono"><img src="@/assets/img/base/a11y-ayuda.png" alt=""></span>
-        <span class="nombre">Ayuda</span>
-      </router-link>
     </div>
   </div>
 </template>
@@ -75,9 +61,6 @@ export default {
     isOpenA11yMenu() {
       return this.$store.getters.isOpenA11yMenu;
     },
-    tieneAltoContraste() {
-      return this.$store.getters.tieneAltoContraste;
-    },
     tieneVistaSimplificada() {
       return this.$store.getters.tieneVistaSimplificada;
     },
@@ -88,9 +71,6 @@ export default {
   methods: {
     toggleA11yMenu() {
       this.$store.commit('toggleA11yMenu');
-    },
-    alternarAltoContraste() {
-      this.$store.commit('alternarAltoContraste');
     },
     alternarVistaSimplificada() {
       this.$store.commit('alternarVistaSimplificada');
