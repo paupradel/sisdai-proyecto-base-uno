@@ -11,11 +11,6 @@ const routes = [
     component: Inicio,
   },
   {
-    path: '/ayuda',
-    name: 'Ayuda',
-    component: () => import('@/views/Ayuda.vue'),
-  },
-  {
     path: '/guia-estilos',
     name: 'GuiaEstilos',
     component: () => import('@/views/GuiaEstilos.vue'),

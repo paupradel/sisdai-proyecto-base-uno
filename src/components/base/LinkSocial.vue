@@ -1,5 +1,5 @@
 <template>
-  <a class="link-social" :class=icono :href=url target="_blank" rel="noopener">
+  <a class="link-social" :class="[hover === 'conacyt' ? 'conacyt': 'gob', icono]" :href=url target="_blank" rel="noopener">
     <span class="a11y-solo-lectura">{{ spanglish }}</span>
   </a>
 </template>
@@ -20,6 +20,10 @@ export default {
       type: String,
       required: true,
     },
+    hover: {
+      type: String,
+      required: true,
+    }
   },
 };
 </script>
@@ -31,10 +35,19 @@ export default {
   padding: 0;
   margin-left: - 5px;
   margin-right: $gap*.5;
+}
+.gob {
   &:hover,
   &:focus {
     background: transparent;
     color: map-get($color-gob, "dorado");
+  }
+}
+.conacyt {
+  &:hover,
+  &:focus {
+    background: transparent;
+    color: map-get($color-conacyt, "link-hover");
   }
 }
 </style>

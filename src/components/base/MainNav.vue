@@ -50,7 +50,6 @@
             </div>
           </div>
 
-          <router-link class="main-nav-link" to="/ayuda">Ayuda</router-link>
         </div>
       </div>
     </MainContainer>

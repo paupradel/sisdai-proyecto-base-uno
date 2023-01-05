@@ -61,8 +61,8 @@
           Síguenos en <span class="a11y-solo-lectura">nuestras redes sociales:</span>
         </p>
         <p>
-          <link-social url="https://www.facebook.com/gobmx" icono="social-facebook" spanglish="feisbuk " />
-          <link-social url="https://twitter.com/gobmx" icono="social-twitter" spanglish=" y tuiter." />
+          <link-social url="https://www.facebook.com/gobmx" hover="gob" icono="social-facebook" spanglish="feisbuk " />
+          <link-social url="https://twitter.com/gobmx" hover="gob" icono="social-twitter" spanglish=" y tuiter." />
         </p>
       </nav>
     </MainContainer>
