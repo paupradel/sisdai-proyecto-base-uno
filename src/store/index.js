@@ -12,6 +12,7 @@ export default new Vuex.Store({
     openA11yMenu: false,
     vista_simplificada: false,
     enlaces_subrayados: false,
+    tamanio_fuente: 16,
 
     nombre_eni: 'nombre_eni_var_store',
 
@@ -90,6 +91,24 @@ export default new Vuex.Store({
     quitarEnlacesSubrayados(state) {
       state.enlaces_subrayados = false;
     },
+    incrementarFuente(state) {
+      if(state.tamanio_fuente > 47) {
+        state.tamanio_fuente = 48;
+      } else {
+        state.tamanio_fuente++;
+      }
+      let tamanio_arriba = `${state.tamanio_fuente}px`
+      document.documentElement.style.setProperty('--tipografia-tamanio',tamanio_arriba)
+    },
+    reducirFuente(state) {
+      if(state.tamanio_fuente < 2) {
+        state.tamanio_fuente = 1;
+      } else {
+        state.tamanio_fuente--;
+      }
+      let tamanio_abajo = `${state.tamanio_fuente}px`
+      document.documentElement.style.setProperty('--tipografia-tamanio',tamanio_abajo)
+    }
   },
   actions: {
   },

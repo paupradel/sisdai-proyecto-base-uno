@@ -6,7 +6,7 @@
 
 <style scoped lang="scss">
 h1 {
-  font-size: 99px;
+  font-size: 6.1875rem;
   color: #eee;
   text-align: center;
   margin: 30vh 0;

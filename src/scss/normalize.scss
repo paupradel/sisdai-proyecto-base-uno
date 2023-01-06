@@ -1,3 +1,7 @@
+html {
+  font-size: var(--tipografia-tamanio);
+}
+
 html,
 body {
   box-sizing: border-box;
@@ -250,7 +254,7 @@ button,
 .btn {
   @extend %interact-base;
   box-shadow: none;
-  font-size: map-get($size-btn, "normal");
+  font-size: 1rem;
   font-weight: 400;
   line-height: 20px;
   text-decoration: none;

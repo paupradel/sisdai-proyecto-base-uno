@@ -45,7 +45,7 @@ export default {
   user-select: none;
   dt, dd {
     color: #fff;
-    font-size: 10px;
+    font-size: .625rem;
     line-height: 12px;
     padding: 0;
     margin: 0;

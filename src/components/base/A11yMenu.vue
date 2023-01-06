@@ -43,6 +43,14 @@
         </span>
         <span class="nombre">Enlaces subrayados</span>
       </button>
+      <button class="a11y-opcion" type="button" @click="incrementarFuente">
+        <!-- <span class="icono"><img src="@/assets/img/base/a11y-restablecer.png" alt=""></span> -->
+        <span class="nombre">Incrementar fuente</span>
+      </button>
+      <button class="a11y-opcion" type="button" @click="reducirFuente">
+        <!-- <span class="icono"><img src="@/assets/img/base/a11y-restablecer.png" alt=""></span> -->
+        <span class="nombre">Reducir fuente</span>
+      </button>
       <button class="a11y-opcion" type="button" @click="restablecerEstilo">
         <span class="icono"><img src="@/assets/img/base/a11y-restablecer.png" alt=""></span>
         <span class="nombre">Restablecer</span>
@@ -78,10 +86,16 @@ export default {
     alternarEnlacesSubrayados() {
       this.$store.commit('alternarEnlacesSubrayados');
     },
+    incrementarFuente() {
+      this.$store.commit('incrementarFuente');
+    },
+    reducirFuente() {
+      this.$store.commit('reducirFuente');
+    },
     restablecerEstilo() {
-      this.$store.commit('quitarAltoContraste');
       this.$store.commit('quitarVistaSimplificada');
       this.$store.commit('quitarEnlacesSubrayados');
+      document.documentElement.style.setProperty('--tipografia-tamanio','16');
     },
   },
 };

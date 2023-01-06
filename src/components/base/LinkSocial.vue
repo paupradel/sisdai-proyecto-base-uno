@@ -30,7 +30,7 @@ export default {
 
 <style scoped lang="scss">
 .link-social {
-  font-size: map-get($fuente, "size-subtitulo");
+  font-size: 22px;
   color: #fff;
   padding: 0;
   margin-left: - 5px;

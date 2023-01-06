@@ -72,7 +72,7 @@ export default {
   padding-top: $gap;
   padding-bottom: $gap * .5;
   color: map-get($color-conacyt, "texto");
-  font-size: 14px;
+  font-size: .875rem;
   .footer-titulo {
     margin-top: $gap;
     font-weight: 600;

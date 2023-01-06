@@ -99,7 +99,7 @@ $altura_card: 240px;
     position: relative;
     top: -5px;
     background: #000;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
     padding: 6.5px 13px;
     border-radius: 5px;
@@ -122,7 +122,7 @@ $altura_card: 240px;
       transition: margin-left .27s ease-in-out;
       span.icono-descargar{
         color: #000;
-        font-size: 32px;
+        font-size: 2rem;
         transform: rotate(-90deg);
         display: block;
         position:absolute;

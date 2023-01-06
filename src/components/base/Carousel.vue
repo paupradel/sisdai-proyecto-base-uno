@@ -59,7 +59,7 @@ export default {
 .carrusel-cuerpo {
   padding: 0 10px;
   p.carrusel-pie{
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: 600;
     margin-top:5px;
   }

@@ -2,16 +2,11 @@
   <div>
     <div class="cover">
       <div class="cover-gradient">
-        <img class="cover-logos" src="@/assets/img/base/logos-gob-conacyt.svg"/>
         <h1 class="cover-title">Título de portada</h1>
         <h2 class="cover-subtitle">
           Un capítulo del Ecosistema Nacional Informático de PRONACE
         </h2>
       </div>
-    </div>
-
-    <div class="container text m-y-3">
-      <img src="@/assets/img/base/firma_compuesta.svg" alt="">
     </div>
 
     <div class="container text m-y-3">

@@ -1,13 +1,13 @@
 .btn-lg {
-  font-size: map-get($size-btn, "large");
+  font-size: 1.5rem;
   padding: map-get($size-btn, "large")*.25 map-get($size-btn, "large")*.5;
 }
 .btn-md {
-  font-size: map-get($size-btn, "medium");
+  font-size: 1.25rem;
   padding: map-get($size-btn, "medium")*.25 map-get($size-btn, "medium")*.5;
 }
 .btn-sm {
-  font-size: map-get($size-btn, "small");
+  font-size: 0.75rem;
   padding: map-get($size-btn, "small")*.25 map-get($size-btn, "small")*.5;
 }
 .btn-block {

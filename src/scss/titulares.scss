@@ -1,28 +1,28 @@
 .titular-alto {
-  font-size: 42px;
+  font-size: 2.625rem;
   font-weight: 800;
   @media (min-width: map-get($media-queries-limit, "mobile")) {
-    font-size: 80px;
+    font-size: 5rem;
     line-height: 86px;
   }
 }
 .titular-bajo {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 800;
   @media (min-width: map-get($media-queries-limit, "mobile")) {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 }
 .titular-portada {
   @extend .titular-bajo;
   max-width: 550px;
   &.sub {
-    font-size: 16px;
+    font-size: 1rem;
   }
   @media (min-width: map-get($media-queries-limit, "mobile")) {
     text-align: center;
     &.sub {
-      font-size: 21px;
+      font-size: 1.3125rem;
     }
   }
 }
