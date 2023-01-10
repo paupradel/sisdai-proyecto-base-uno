@@ -10,7 +10,6 @@ export default new Vuex.Store({
     openGobNav: false,
     hasA11yMenu: true,
     openA11yMenu: false,
-    alto_contraste: false,
     vista_simplificada: false,
     enlaces_subrayados: false,
 
@@ -35,9 +34,6 @@ export default new Vuex.Store({
     },
     isOpenA11yMenu(state) {
       return state.openA11yMenu;
-    },
-    tieneAltoContraste(state) {
-      return state.alto_contraste;
     },
     tieneVistaSimplificada(state) {
       return state.vista_simplificada;
@@ -81,12 +77,6 @@ export default new Vuex.Store({
     },
     toggleA11yMenu(state) {
       state.openA11yMenu = !state.openA11yMenu;
-    },
-    alternarAltoContraste(state) {
-      state.alto_contraste = !state.alto_contraste;
-    },
-    quitarAltoContraste(state) {
-      state.alto_contraste = false;
     },
     alternarVistaSimplificada(state) {
       state.vista_simplificada = !state.vista_simplificada;

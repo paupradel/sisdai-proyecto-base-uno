@@ -39,10 +39,10 @@
           Síguenos en <span class="a11y-solo-lectura">nuestras redes sociales:</span>
         </p>
         <p>
-          <link-social url="https://www.facebook.com/ConacytMX/" icono="social-facebook" spanglish="feisbuk, " />
-          <link-social url="https://twitter.com/Conacyt_MX" icono="social-twitter" spanglish="tuiter, " />
-          <link-social url="https://www.instagram.com/conacyt_mx/" icono="social-instagram" spanglish="instagram " />
-          <link-social url="https://www.youtube.com/channel/UClcVyko0ESwMc_6Lu1bXmIQ" icono="social-youtube" spanglish=" y youtube." />
+          <link-social url="https://www.facebook.com/ConacytMX/" hover="conacyt" icono="social-facebook" spanglish="feisbuk, " />
+          <link-social url="https://twitter.com/Conacyt_MX" hover="conacyt" icono="social-twitter" spanglish="tuiter, " />
+          <link-social url="https://www.instagram.com/conacyt_mx/" hover="conacyt" icono="social-instagram" spanglish="instagram " />
+          <link-social url="https://www.youtube.com/channel/UClcVyko0ESwMc_6Lu1bXmIQ" hover="conacyt" icono="social-youtube" spanglish=" y youtube." />
         </p>
       </nav>
     </MainContainer>
