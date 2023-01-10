@@ -1,27 +1,27 @@
 // typografia
 @font-face {
-  font-family: "Montserrat";
+  font-family: var(--tipografia-familia, 'sans-serif');
   font-style: normal;
   font-weight: 200;
   font-display: swap;
   src: url("~@/assets/fonts/Montserrat-Light.ttf");
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: var(--tipografia-familia, 'sans-serif');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url("~@/assets/fonts/Montserrat-Regular.ttf");
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: var(--tipografia-familia, 'sans-serif');
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url("~@/assets/fonts/Montserrat-Medium.ttf");
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: var(--tipografia-familia, 'sans-serif');
   font-style: normal;
   font-weight: 800;
   font-display: swap;
