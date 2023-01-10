@@ -1,3 +1,7 @@
+.a11y-tipografia { //poner en el body pa cambiar toda la tipografia de la página
+  --tipografia-familia: 'Atkinson Hyperlegible', sans-serif;
+}
+
 .a11y-solo-lectura {
   position: fixed;
   top: -1px;

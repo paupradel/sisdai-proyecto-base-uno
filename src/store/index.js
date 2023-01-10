@@ -12,6 +12,7 @@ export default new Vuex.Store({
     openA11yMenu: false,
     vista_simplificada: false,
     enlaces_subrayados: false,
+    cambiar_tipografia: false,
 
     nombre_eni: 'nombre_eni_var_store',
 
@@ -40,6 +41,9 @@ export default new Vuex.Store({
     },
     tieneEnlacesSubrayados(state) {
       return state.enlaces_subrayados;
+    },
+    cambiarTipografia(state) {
+      return state.cambiar_tipografia;
     },
 
     obtenerNombreEni(state) {
@@ -89,6 +93,12 @@ export default new Vuex.Store({
     },
     quitarEnlacesSubrayados(state) {
       state.enlaces_subrayados = false;
+    },
+    cambiarTipografiaAtkinson(state) {
+      state.cambiar_tipografia = !state.cambiar_tipografia;
+    },
+    quitarCambioDeTipografia(state) {
+      state.cambiar_tipografia = false;
     },
   },
   actions: {
