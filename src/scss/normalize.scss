@@ -9,7 +9,7 @@ body {
 body {
   background: map-get($color, "fondo");
   color: map-get($color, "texto");
-  font-family: var(--tipografia-familia, 'sans-serif');
+  font-family: var(--tipografia-familia);
   font-size: map-get($fuente, "size-primario");
   font-weight: 400;
   line-height: 1.333;
@@ -19,6 +19,10 @@ body {
 body * {
   box-sizing: border-box;
   line-height: 1.333;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: var(--tipografia-familia);
 }
 
 article,
@@ -97,7 +101,7 @@ i,
 em,
 cite,
 q {
-  font-family: var(--tipografia-familia, 'sans-serif');
+  font-family: var(--tipografia-familia);
   font-style: italic;
 }
 
@@ -201,7 +205,7 @@ svg:not(:root) {
 
 // elementos clickeables
 %interact-base {
-  font-family: var(--tipografia-familia, 'sans-serif');
+  font-family: var(--tipografia-familia);
   border: none;
   border-radius: 3px;
   box-sizing: border-box;
@@ -308,6 +312,7 @@ summary {
 
 //formularios
 fieldset {
+  font-family: var(--tipografia-familia);
   box-sizing: content-box;
   background: transparent;
   border: none;
@@ -333,7 +338,7 @@ select {
   box-sizing: border-box;
   color: map-get($color, "texto");
   display: inline-flex;
-  font-family: var(--tipografia-familia, 'sans-serif');
+  font-family: var(--tipografia-familia);
   font-size: map-get($fuente, "size-primario");
   font-weight: 600;
   padding: map-get($fuente, "size-alto")*.25 map-get($fuente, "size-alto")*.5;
@@ -354,7 +359,7 @@ select {
 }
 
 label {
-  font-family: var(--tipografia-familia, 'sans-serif');
+  font-family: var(--tipografia-familia);
   font-size: map-get($fuente, "size-primario");
   font-weight: 400;
 }
@@ -372,6 +377,7 @@ select {
 // listas
 ul,
 ol {
+  font-family: var(--tipografia-familia);
   list-style-position: outside;
   padding-left: 20px;
   margin-top: $gap;
@@ -415,6 +421,7 @@ ul {
 }
 
 dl {
+  font-family: var(--tipografia-familia);
   margin-top: $gap;
   margin-bottom: $gap;
   dt {
@@ -432,6 +439,7 @@ dl {
 
 // tablas
 table {
+  font-family: var(--tipografia-familia);
   border-collapse: collapse;
   margin-top: $gap;
   margin-bottom: $gap;

@@ -44,8 +44,8 @@
         <span class="nombre">Enlaces subrayados</span>
       </button>
       <button class="a11y-opcion" type="button" @click="cambiarTipografiaAtkinson">
-        <span class="icono"><img src="@/assets/img/base/a11y-restablecer.png" alt=""></span>
-        <span class="nombre">Cambiar tipografia</span>
+        <span class="icono"><img src="@/assets/img/base/cambio-tipografia.svg" alt=""></span>
+        <span class="nombre">Tipografía accesibile</span>
       </button>
       <button class="a11y-opcion" type="button" @click="restablecerEstilo">
         <span class="icono"><img src="@/assets/img/base/a11y-restablecer.png" alt=""></span>
@@ -87,7 +87,6 @@ export default {
     },
     restablecerEstilo() {
       this.$store.commit('quitarCambioDeTipografia');
-      this.$store.commit('quitarAltoContraste');
       this.$store.commit('quitarVistaSimplificada');
       this.$store.commit('quitarEnlacesSubrayados');
     },
@@ -162,7 +161,7 @@ export default {
     }
     .nombre {
       display: block;
-      width: 140px;
+      width: 170px;
     }
     &.prendido {
       background: map-get($color-boton, "hover-fondo");
