@@ -42,6 +42,7 @@ export default {
         'a11y-contraste': this.$store.getters.tieneAltoContraste,
         'a11y-simplificada': this.$store.getters.tieneVistaSimplificada,
         'a11y-enlace': this.$store.getters.tieneEnlacesSubrayados,
+        'a11y-tipografia': this.$store.getters.cambiarTipografia,
       };
     },
   },
