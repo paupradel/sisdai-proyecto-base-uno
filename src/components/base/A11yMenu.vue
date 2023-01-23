@@ -53,7 +53,7 @@
       </button>
       <button class="a11y-opcion" type="button" @click="cambiarTipografiaAtkinson">
         <span class="icono"><img src="@/assets/img/base/cambio-tipografia.svg" alt=""></span>
-        <span class="nombre">Tipografía accesibile</span>
+        <span class="nombre">Cambio de fuente</span>
       </button>
       <button class="a11y-opcion" type="button" @click="restablecerEstilo">
         <span class="icono"><img src="@/assets/img/base/a11y-restablecer.png" alt=""></span>
