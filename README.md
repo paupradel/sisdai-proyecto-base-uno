@@ -7,7 +7,14 @@ encuentra deprecada y se puede encontrar una segunda versión en funcionamiento 
 
 **Debido a lo anterior a esta versión (1.0.0) ya no se le da mantenimiento y se conserva aquí como referencia a otros 
 desarrollos que aún la puedan estar utilizando.**
-___
+
+> **_Limitación de responsabilidad_**
+> 
+> El presente es un proyecto en construcción, por tanto ni el equipo del Sisdai 
+> ni el de Salsa son responsables del uso y contenido del presente recurso, 
+> toda vez que se trata de una versión en su modalidad prueba, y no de una 
+> versión pública, por lo que una vez que sea lanzada la versión final, 
+> se invita a la persona usuaria a consultarla y validar sus requisitos.
 
 ## Requerimientos
 
