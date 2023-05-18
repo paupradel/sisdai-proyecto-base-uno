@@ -1,9 +1,9 @@
-# sisdai-baseweb-uno
+# sisdai-proyecto-base-uno
 
 Este repositorio contiene la primera versión de la base para levantar un dominio con los requerimientos mínimos para un 
 proyecto que utilice el Sistema de Diseño y Accesibilidad para la Investigación. Esta primera versión actualmente se 
 encuentra deprecada y se puede encontrar una segunda versión en funcionamiento en
-[este repositorio](https://github.com/salsa-community/sisdai-baseweb).
+[este repositorio](https://github.com/salsa-community/sisdai-proyecto-base).
 
 **Debido a lo anterior a esta versión (1.0.0) ya no se le da mantenimiento y se conserva aquí como referencia a otros 
 desarrollos que aún la puedan estar utilizando.**
@@ -22,9 +22,9 @@ Para utilizar este proyecto necesitas tener previamente instalado
 1. Clonar este repositorio
 2. Cambiar el nombre a la carpeta al nombre del proyecto
 3. Cambiar el nombre del proyecto en el package.json
-4. `git remote rename origin baseweb-uno` para cambiar el nombre del link del repo
+4. `git remote rename origin proyecto-base-uno` para cambiar el nombre del link del repo
 
-* Este repo remoto solo se utilizará para jalar cambios del proyecto base con `git pull baseweb-uno main`, nunca para subir.
+* Este repo remoto solo se utilizará para jalar cambios del proyecto base con `git pull proyecto-base-uno main`, nunca para subir.
 
 5. `git remote add origin git@github.com:usuario/repositorio.git` para agregar a origin el repo del proyecto
 
