@@ -1,5 +1,5 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from "vue";
+import Vuex from "vuex";
 
 Vue.use(Vuex);
 
@@ -14,13 +14,21 @@ export default new Vuex.Store({
     enlaces_subrayados: false,
     cambiar_tipografia: false,
 
-    nombre_eni: 'nombre_eni_var_store',
+    nombre_eni: "nombre_eni_var_store",
 
     version_proyecto: process.env.PACKAGE_VERSION,
     actualizacion_proyecto: process.env.DATE_DEPLOY,
     entorno_proyecto: process.env.ENV_DEPLOY,
+    cdn_archivos_dominio: process.env.VUE_APP_CDN_ARCHIVOS
   },
   getters: {
+    /**
+     * Regresa el url del cdn especifico para el capitulo en desarrollo.
+     * @returns {String} url
+     */
+    /*cdnArchivos{nombre_capitulo}(state) {
+      return `${state.cdn_archivos_dominio}/enis/{nombre_eni}/{nombre_capitulo}`;
+    },*/
     hasMainNav(state) {
       return state.hasMainNav;
     },
@@ -58,7 +66,7 @@ export default new Vuex.Store({
     },
     entornoProyecto(state) {
       return state.entorno_proyecto;
-    },
+    }
   },
   mutations: {
     openMainNav(state) {
@@ -99,10 +107,8 @@ export default new Vuex.Store({
     },
     quitarCambioDeTipografia(state) {
       state.cambiar_tipografia = false;
-    },
+    }
   },
-  actions: {
-  },
-  modules: {
-  },
+  actions: {},
+  modules: {}
 });
