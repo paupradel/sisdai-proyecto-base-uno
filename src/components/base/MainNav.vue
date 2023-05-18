@@ -2,15 +2,15 @@
   <nav v-if="hasMainNav" class="main-nav">
     <MainContainer class="flex">
       <div class="main-nav-top">
-        <a href="https://conacyt.mx/" class="logo-cel-conacyt">
+        <a href="https://conahcyt.mx/" class="logo-cel-conahcyt">
           <img
-          src="@/assets/img/base/conacyt-azul.svg"
+          src="@/assets/img/base/conahcyt-azul.svg"
           alt="Gobierno de México."
           height="36px">
         </a>
         <BtnNavMob
           @click.native="toggleMenu"
-          :class="{'open':isOpenMainNav, 'color-conacyt':true}" 
+          :class="{'open':isOpenMainNav, 'color-conahcyt':true}"
           aria-expanded="false"
           aria-controls="navegacion-principal"/>
       </div>
@@ -26,14 +26,14 @@
         @click="toggleMenu">
 
         <div class="main-nav-menu-seccion">
-          <a href="https://conacyt.mx/" class="logo-conacyt">
+          <a href="https://conahcyt.mx/" class="logo-conahcyt">
             <img
-            src="@/assets/img/base/conacyt-azul.svg"
+            src="@/assets/img/base/conahcyt-azul.svg"
             alt="Gobierno de México."
             height="36px">
           </a>
         </div>
-        
+
         <div class="main-nav-menu-seccion">
           <a class="main-nav-external-link" :href="domain" target="_blank" rel="noopener">
             Ir a ENI {{obtenerNombreEni}}
@@ -94,10 +94,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.logo-cel-conacyt {
+.logo-cel-conahcyt {
   padding: $gap*.25;
 }
-.logo-conacyt {
+.logo-conahcyt {
   display: none;
 }
 .main-nav {
@@ -167,7 +167,7 @@ export default {
 }
 
 @media (min-width: map-get($media-queries-limit, "navegacion")) {
-  .logo-conacyt {
+  .logo-conahcyt {
     display: inline-block;
     padding: $gap*.25 $gap 0;
     margin-left: $gap * -1;

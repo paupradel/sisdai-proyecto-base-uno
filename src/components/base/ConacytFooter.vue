@@ -1,13 +1,12 @@
 <template>
-  <footer class="footer-conacyt">
+  <footer class="footer-conahcyt">
     <MainContainer class="footer-flex">
       <div class="flex">
         <img
-          src="@/assets/img/base/conacyt.svg"
+          src="@/assets/img/base/conahcyt-blanco.svg"
           alt="Gobierno de México"
           width="200px"
           height="60px">
-        <p>Consejo Nacional de Ciencia y Tecnología</p>
 
         <p>
           Av. Insurgentes Sur 1582, Col. Crédito Constructor,<br>
@@ -15,23 +14,23 @@
           Tel: (55) 5322-7700
         </p>
 
-        <p>©2021 Conacyt Derechos Reservados</p>
+        <p>©2023 Conahcyt Derechos Reservados en trámite</p>
       </div>
       <nav class="flex">
         <p class="footer-titulo">
           Enlaces<span class="a11y-solo-lectura">.</span>
         </p>
-        <link-externo url="https://conacyt.mx/conacyt/directorio/" class="link-conacyt">
+        <link-externo url="https://conahcyt.mx/directorio/" class="link-conahcyt">
           Directorio
         </link-externo>
-        <link-externo url="https://conacyt.mx/soporte-tecnico/" class="link-conacyt">
-          Soporte Técnico
+        <link-externo url="https://conahcyt.mx/centro-de-contacto-de-atencion/" class="link-conahcyt">
+          Centro de Contacto
         </link-externo>
-        <link-externo url="https://conacyt.mx/aviso-de-privacidad/" class="link-conacyt">
+        <link-externo url="https://conahcyt.mx/aviso-de-privacidad/" class="link-conahcyt">
           Política de Privacidad
         </link-externo>
-        <link-externo url="http://comunidad.conacyt.mx/" class="link-conacyt">
-          Intranet Conacyt
+        <link-externo url="http://comunidad.conahcyt.mx/index.php" class="link-conahcyt">
+          Intranet Conahcyt
         </link-externo>
       </nav>
       <nav class="flex">
@@ -39,10 +38,10 @@
           Síguenos en <span class="a11y-solo-lectura">nuestras redes sociales:</span>
         </p>
         <p>
-          <link-social url="https://www.facebook.com/ConacytMX/" hover="conacyt" icono="social-facebook" spanglish="feisbuk, " />
-          <link-social url="https://twitter.com/Conacyt_MX" hover="conacyt" icono="social-twitter" spanglish="tuiter, " />
-          <link-social url="https://www.instagram.com/conacyt_mx/" hover="conacyt" icono="social-instagram" spanglish="instagram " />
-          <link-social url="https://www.youtube.com/channel/UClcVyko0ESwMc_6Lu1bXmIQ" hover="conacyt" icono="social-youtube" spanglish=" y youtube." />
+          <link-social url="https://www.facebook.com/ConahcytMX" hover="conahcyt" icono="social-facebook" spanglish="feisbuk, " />
+          <link-social url="https://twitter.com/Conahcyt_Mex" hover="conahcyt" icono="social-twitter" spanglish="tuiter, " />
+          <link-social url="https://www.instagram.com/conahcyt_mex/" hover="conahcyt" icono="social-instagram" spanglish="instagram " />
+          <link-social url="https://www.youtube.com/@Conahcytmx" hover="conahcyt" icono="social-youtube" spanglish=" y youtube." />
         </p>
       </nav>
     </MainContainer>
@@ -65,13 +64,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.footer-conacyt {
-  background: map-get($color-conacyt, "fondo");
+.footer-conahcyt {
+  background: map-get($color-conahcyt, "fondo");
   box-sizing: border-box;
   overflow: hidden;
   padding-top: $gap;
   padding-bottom: $gap * .5;
-  color: map-get($color-conacyt, "texto");
+  color: map-get($color-conahcyt, "texto");
   font-size: 14px;
   .footer-titulo {
     margin-top: $gap;
@@ -84,15 +83,15 @@ export default {
   .footer-descripcion {
     margin-bottom: $gap * .5;
   }
-  .link-conacyt {
+  .link-conahcyt {
     background: transparent;
     font-size: map-get($fuente, "size-notas");
-    color: map-get($color-conacyt, "link");
+    color: map-get($color-conahcyt, "link");
     display: block;
     &:hover,
     &:focus {
       background: transparent;
-      color: map-get($color-conacyt, "link-hover");
+      color: map-get($color-conahcyt, "link-hover");
     }
   }
   @media (min-width: map-get($media-queries-limit, "mobile")) {

@@ -2,8 +2,8 @@
   <div class="pie-componente-libreria" >
     <div class="bloque-absoluto" v-if="absoluto"></div>
     <div class="bloque-negativo" v-if="afuera"></div>
-    <a href="https://conacyt.mx/" target="_blank" class="link-conacyt" :class="{'absoluto':absoluto, 'negative':afuera}">
-      <img :src="require('@/assets/img/base/logo-conacyt-azul-simple.svg')" alt="Conacyt">
+    <a href="https://conahcyt.mx/" target="_blank" class="link-conahcyt" :class="{'absoluto':absoluto, 'negative':afuera}">
+      <img :src="require('@/assets/img/base/conahcyt-azul.svg')" alt="Conacyt">
     </a>
   </div>
 </template>
@@ -39,7 +39,7 @@ export default {
     height: 10px;
     margin-top: -10px;
   }
-  .link-conacyt {
+  .link-conahcyt {
     background-color: #F7F7F7;
     border-radius: 0 0 10px 10px;
     display: flex;
@@ -85,7 +85,7 @@ export default {
           filter: grayscale(0%);
         }
       }
-    } 
+    }
   }
 }
 </style>

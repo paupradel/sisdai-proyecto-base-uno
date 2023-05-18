@@ -33,7 +33,7 @@ export default {
     width: 20px;
     height: 1px;
     display: block;
-    
+
     transition: all .3s ease-in-out;
     position: absolute;
     top: 18px;
@@ -65,7 +65,7 @@ export default {
       }
     }
   }
-  &.color-conacyt{
+  &.color-conahcyt{
     .btn-text {
       color: map-get($color-nav, "texto-conacyt");
     }
@@ -107,17 +107,17 @@ export default {
   &.color-gob:focus {
     background: map-get($color-gob, "dorado");
   }
-  &.color-conacyt:focus {
-    background: map-get($color-conacyt, "azul");
+  &.color-conahcyt:focus {
+    background: map-get($color-conahcyt, "azul");
     .btn-icon {
-      background: map-get($color-conacyt, "texto");
+      background: map-get($color-conahcyt, "texto");
       &::after,
       &::before {
-        background: map-get($color-conacyt, "texto");
+        background: map-get($color-conahcyt, "texto");
       }
     }
     .btn-text {
-      color: map-get($color-conacyt, "texto");
+      color: map-get($color-conahcyt, "texto");
     }
   }
   @media (min-width: map-get($media-queries-limit, "navegacion")) {
