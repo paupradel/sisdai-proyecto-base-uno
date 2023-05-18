@@ -12,7 +12,7 @@
         <p class="footer-titulo">
           Enlaces<span class="a11y-solo-lectura">.</span>
         </p>
-        <link-gob url="https://participa.gob.mx/" parent="pf-mx">
+        <link-gob url="https://www.participa.gob.mx/" parent="pf-mx">
           Participa
         </link-gob>
         <link-gob url="https://www.gob.mx/publicaciones" parent="pf-mx">
@@ -37,19 +37,19 @@
         <link-gob url="https://www.gob.mx/accesibilidad" parent="pf-mx">
           Declaración de accesibilidad
         </link-gob>
-        <link-gob url="https://datos.gob.mx/privacidadintegral" parent="pf-mx">
+        <link-gob url="https://www.gob.mx/aviso_de_privacidad" parent="pf-mx">
           Aviso de privacidad integral
         </link-gob>
-        <link-gob url="https://datos.gob.mx/privacidadsimplificado" parent="pf-mx">A
-          viso de privacidad simplificado
+        <link-gob url="https://www.gob.mx/privacidadsimplificado" parent="pf-mx">
+          Aviso de privacidad simplificado
         </link-gob>
-        <link-gob url="https://datos.gob.mx/terminos" parent="pf-mx">
+        <link-gob url="https://www.gob.mx/terminos" parent="pf-mx">
           Términos y Condiciones
         </link-gob>
-        <link-gob url="https://datos.gob.mx/terminos#medidas-seguridad-informacion" parent="pf-mx">
+        <link-gob url="https://www.gob.mx/terminos#medidas-seguridad-informacion" parent="pf-mx">
           Política de seguridad
         </link-gob>
-        <link-gob url="https://datos.gob.mx/sitemap" parent="pf-mx">
+        <link-gob url="https://www.gob.mx/sitemap" parent="pf-mx">
           Mapa de sitio
         </link-gob>
       </nav>
