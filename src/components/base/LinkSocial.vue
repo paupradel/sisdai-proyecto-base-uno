@@ -47,7 +47,7 @@ export default {
   &:hover,
   &:focus {
     background: transparent;
-    color: map-get($color-conacyt, "link-hover");
+    color: map-get($color-conahcyt, "link-hover");
   }
 }
 </style>
