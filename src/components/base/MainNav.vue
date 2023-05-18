@@ -4,13 +4,13 @@
       <div class="main-nav-top">
         <a href="https://conacyt.mx/" class="logo-cel-conacyt">
           <img
-          src="@/assets/img/base/conacyt-azul.svg"
+          src="@/assets/img/base/conahcyt-azul.svg"
           alt="Gobierno de México."
           height="36px">
         </a>
         <BtnNavMob
           @click.native="toggleMenu"
-          :class="{'open':isOpenMainNav, 'color-conacyt':true}" 
+          :class="{'open':isOpenMainNav, 'color-conacyt':true}"
           aria-expanded="false"
           aria-controls="navegacion-principal"/>
       </div>
@@ -28,12 +28,12 @@
         <div class="main-nav-menu-seccion">
           <a href="https://conacyt.mx/" class="logo-conacyt">
             <img
-            src="@/assets/img/base/conacyt-azul.svg"
+            src="@/assets/img/base/conahcyt-azul.svg"
             alt="Gobierno de México."
             height="36px">
           </a>
         </div>
-        
+
         <div class="main-nav-menu-seccion">
           <a class="main-nav-external-link" :href="domain" target="_blank" rel="noopener">
             Ir a ENI {{obtenerNombreEni}}
